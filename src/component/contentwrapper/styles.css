@@ -1,0 +1,15 @@
+.content-wrapper{
+    width : 100% ;
+    display : flex ;
+    justify-content: center;
+    align-items: center ;
+    position: relative;
+    height : 100% ;
+}
+
+.content-wrapper > div {
+    max-width: 1400px;
+    width : 100% ;
+    position: relative;
+    height: 100% ;
+}

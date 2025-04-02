@@ -1,9 +1,10 @@
-import ContentWrapper from "./component/contentwrapper/ContentWrapper";
+import ContentWrapper from "./components/contentwrapper/ContentWrapper";
+import Header from "./components/header/Header";
 
 export default function App(){
   return(
-    <ContentWrapper>
-      <h1>This is react app</h1>
-    </ContentWrapper>
+    <>
+    <Header/>
+    </>
   )
 }

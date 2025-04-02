@@ -1,9 +1,7 @@
-import ContentWrapper from "./component/contentwrapper/ContentWrapper";
+import Footer from "./components/footer/Footer";
 
 export default function App(){
   return(
-    <ContentWrapper>
-      <h1>This is react app</h1>
-    </ContentWrapper>
+    <Footer/>
   )
 }

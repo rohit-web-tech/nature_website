@@ -1,12 +1,14 @@
 #header{
     width: 100%;
     padding: 5px 0px;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    }
+    position: relative;
+    border-bottom: 2px solid #333;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -20,15 +22,19 @@
     gap: 30px;
     
 }
-nav-left{
+.nav-left{
     font-size: 1.5rem;
 
 }
-nav-right > button{
+.nav-right > button{
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
     border:2px solid black;
-
+    padding: 7px 20px ;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    color : white ;
 }
